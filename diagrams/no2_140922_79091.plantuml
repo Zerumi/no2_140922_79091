@@ -1,0 +1,53 @@
+@startuml
+
+!theme plain
+top to bottom direction
+skinparam linetype ortho
+
+class Amnesia
+class BulkUp
+class Bulldoze
+class ChargeBeam
+class Confide
+class DamageMove
+class DoubleTeam
+class DragonPulse
+class HoOh
+class Lucario
+class Mamoswine
+class Move
+class Overheat
+class PhysicalMove
+class Piloswine
+class PoisonJab
+class Pokemon
+class Program
+class Riolu
+class SpecialMove
+class StatusMove
+class Swinub
+class WillOWisp
+class WorkUp
+
+Amnesia       -[#000082,plain]-^  StatusMove   
+BulkUp        -[#000082,plain]-^  StatusMove   
+Bulldoze      -[#000082,plain]-^  PhysicalMove 
+ChargeBeam    -[#000082,plain]-^  SpecialMove  
+Confide       -[#000082,plain]-^  StatusMove   
+DamageMove    -[#000082,plain]-^  Move         
+DoubleTeam    -[#000082,plain]-^  StatusMove   
+DragonPulse   -[#000082,plain]-^  SpecialMove  
+HoOh          -[#000082,plain]-^  Pokemon      
+Lucario       -[#000082,plain]-^  Riolu        
+Mamoswine     -[#000082,plain]-^  Piloswine    
+Overheat      -[#000082,plain]-^  SpecialMove  
+PhysicalMove  -[#000082,plain]-^  DamageMove   
+Piloswine     -[#000082,plain]-^  Swinub       
+PoisonJab     -[#000082,plain]-^  PhysicalMove 
+Riolu         -[#000082,plain]-^  Pokemon      
+SpecialMove   -[#000082,plain]-^  DamageMove   
+StatusMove    -[#000082,plain]-^  Move         
+Swinub        -[#000082,plain]-^  Pokemon      
+WillOWisp     -[#000082,plain]-^  StatusMove   
+WorkUp        -[#000082,plain]-^  StatusMove   
+@enduml

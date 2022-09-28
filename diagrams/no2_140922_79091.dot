@@ -1,0 +1,56 @@
+digraph "no2_140922_79091" {
+
+splines  = ortho;
+fontname = "Inconsolata";
+
+node [colorscheme = ylgnbu4];
+edge [colorscheme = dark28, dir = both];
+
+Amnesia      [shape = record, label = "{ Amnesia |  }"];
+BulkUp       [shape = record, label = "{ BulkUp |  }"];
+Bulldoze     [shape = record, label = "{ Bulldoze |  }"];
+ChargeBeam   [shape = record, label = "{ ChargeBeam |  }"];
+Confide      [shape = record, label = "{ Confide |  }"];
+DamageMove   [shape = record, label = "{ DamageMove |  }"];
+DoubleTeam   [shape = record, label = "{ DoubleTeam |  }"];
+DragonPulse  [shape = record, label = "{ DragonPulse |  }"];
+HoOh         [shape = record, label = "{ HoOh |  }"];
+Lucario      [shape = record, label = "{ Lucario |  }"];
+Mamoswine    [shape = record, label = "{ Mamoswine |  }"];
+Move         [shape = record, label = "{ Move |  }"];
+Overheat     [shape = record, label = "{ Overheat |  }"];
+PhysicalMove [shape = record, label = "{ PhysicalMove |  }"];
+Piloswine    [shape = record, label = "{ Piloswine |  }"];
+PoisonJab    [shape = record, label = "{ PoisonJab |  }"];
+Pokemon      [shape = record, label = "{ Pokemon |  }"];
+Program      [shape = record, label = "{ Program |  }"];
+Riolu        [shape = record, label = "{ Riolu |  }"];
+SpecialMove  [shape = record, label = "{ SpecialMove |  }"];
+StatusMove   [shape = record, label = "{ StatusMove |  }"];
+Swinub       [shape = record, label = "{ Swinub |  }"];
+WillOWisp    [shape = record, label = "{ WillOWisp |  }"];
+WorkUp       [shape = record, label = "{ WorkUp |  }"];
+
+Amnesia      -> StatusMove   [color = "#000082", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "", headlabel = ""];
+BulkUp       -> StatusMove   [color = "#000082", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "", headlabel = ""];
+Bulldoze     -> PhysicalMove [color = "#000082", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "", headlabel = ""];
+ChargeBeam   -> SpecialMove  [color = "#000082", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "", headlabel = ""];
+Confide      -> StatusMove   [color = "#000082", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "", headlabel = ""];
+DamageMove   -> Move         [color = "#000082", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "", headlabel = ""];
+DoubleTeam   -> StatusMove   [color = "#000082", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "", headlabel = ""];
+DragonPulse  -> SpecialMove  [color = "#000082", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "", headlabel = ""];
+HoOh         -> Pokemon      [color = "#000082", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "", headlabel = ""];
+Lucario      -> Riolu        [color = "#000082", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "", headlabel = ""];
+Mamoswine    -> Piloswine    [color = "#000082", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "", headlabel = ""];
+Overheat     -> SpecialMove  [color = "#000082", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "", headlabel = ""];
+PhysicalMove -> DamageMove   [color = "#000082", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "", headlabel = ""];
+Piloswine    -> Swinub       [color = "#000082", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "", headlabel = ""];
+PoisonJab    -> PhysicalMove [color = "#000082", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "", headlabel = ""];
+Riolu        -> Pokemon      [color = "#000082", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "", headlabel = ""];
+SpecialMove  -> DamageMove   [color = "#000082", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "", headlabel = ""];
+StatusMove   -> Move         [color = "#000082", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "", headlabel = ""];
+Swinub       -> Pokemon      [color = "#000082", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "", headlabel = ""];
+WillOWisp    -> StatusMove   [color = "#000082", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "", headlabel = ""];
+WorkUp       -> StatusMove   [color = "#000082", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "", headlabel = ""];
+
+}
